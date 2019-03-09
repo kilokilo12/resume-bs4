@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,400,700|Titillium+Web:200,400');
+
+
+/* -----------------colours-------------------------- */
+
+.bg-color-name-title {
+    background-color: #676763;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+/* -----------------heading------------------------- */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+
+}
+
+.logo {
+    background: url("../images/profile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 28 px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #fff;
+
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    display: block;
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/* -----------------hover.css------------------------- */
+
+.hvr-bounce-to-bottom:before {
+    background: rgba(0,0,0,0.3);
+    height: 120px;
+    
+}
