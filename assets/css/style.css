@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,400,700|Titillium+Web:200,400');
 
 
-/* -----------------colours-------------------------- */
+/* Colours */
 
 .bg-color-name-title {
     background-color: #676763;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+.bg-color-personal-info {
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -23,7 +31,7 @@
     background-color: #525252;
 }
 
-/* -----------------Special paddings/margins/text------------------------- */
+/* Special paddings/margins/text */
 
 h1, h2, h3, h4 {
     margin: 0;
@@ -43,7 +51,23 @@ h1, h2, h3, h4 {
     display: inline-block;
 }
 
-/* -----------------heading------------------------- */
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* Heading */
 
 header {
     margin: 0;
@@ -55,7 +79,7 @@ header {
 }
 
 .logo {
-    background: url("../images/profile.jpg");
+    background: url("../images/profile1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +91,7 @@ header {
 
 .name {
     font-family: "Titillium Web", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 50px;
     margin-top: 50px;
     color: #fff;
@@ -131,7 +155,7 @@ header {
     letter-spacing: 2px;
 }
 
-/* -----------------hover.css------------------------- */
+/* Hover.css */
 
 .hvr-bounce-to-bottom:before {
     background: rgba(0,0,0,0.3);
@@ -139,7 +163,7 @@ header {
 
 }
 
-/* -----------------Footer------------------------- */
+/* Footer */
 
 footer {
     background-color: #525252;
@@ -189,4 +213,53 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/* Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 20px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    width: 60%;
+    position: relative;
+    
 }
